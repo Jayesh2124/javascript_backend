@@ -1,0 +1,16 @@
+{
+  "name": "mean-stack",
+  "version": "1.0.0",
+  "description": "MEAN Full Stack Development Practice project using Referance of Hitesh Choudheri's Chai aur Backend YT series..!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "backend",
+    "Angular"
+  ],
+  "author": "Jayesh Sutar",
+  "license": "ISC"
+}
