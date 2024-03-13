@@ -1,10 +1,11 @@
 {
-  "name": "mean-stack",
+  "name": "javaScript_backend",
   "version": "1.0.0",
   "description": "MEAN Full Stack Development Practice project using Referance of Hitesh Choudheri's Chai aur Backend YT series..!",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "JavaScript",
@@ -12,5 +13,8 @@
     "Angular"
   ],
   "author": "Jayesh Sutar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
