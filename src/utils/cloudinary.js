@@ -18,10 +18,13 @@ const uploadOnCloud = async (localFilePath) =>{
                 resource_type : "auto"
             })
             // File is uploaded successful
-            console.log("File is added Successfully", response.url);
+            fs.unlinkSync(localFilePath)   
             return response;
     } catch (error) {
         fs.unlinkSync(localFilePath)                //remove the temp locally saved Failed
         return null;
     }
 }
+
+
+export {uploadOnCloud}
